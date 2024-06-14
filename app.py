@@ -7,7 +7,7 @@ import utils.config
 
 def app():
     try:
-        summary_df = pd.read_csv(utils.config.SUMMARIZED_CSV)
+        summary_df = pd.read_csv(utils.config.Summarized.csv)
         classification_df = pd.read_csv(utils.config.CLASSIFIED_CSV)
         topic_extraction_df = pd.read_csv(utils.config.TOPIC_EXTRACTED_CSV)
 
